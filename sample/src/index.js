@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Main from './Main/Main';
+// import Main from './Main/Main';
+import Mainclass from './Main/Mainclass';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Main />
+  <Mainclass />
+  // <Main />
   // <React.StrictMode>
   //   <App />
   // </React.StrictMode>
